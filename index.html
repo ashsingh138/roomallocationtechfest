@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group Accommodation Allocation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Group Accommodation Allocation</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="groups">Upload Group Information CSV:</label>
+            <input type="file" id="groups" name="groups" required><br><br>
+            <label for="hostels">Upload Hostel Information CSV:</label>
+            <input type="file" id="hostels" name="hostels" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
