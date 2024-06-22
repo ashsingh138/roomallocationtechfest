@@ -13,6 +13,7 @@ Room capacity is respected, and rooms are not overfilled.
 # instructionbs to run the program
 open in vs code
 in folder create something like this
+
 foldername
 ├── app.py
 ├── templates/
@@ -20,9 +21,12 @@ foldername
 ├── static/
 │   └── style.css
 ├── uploads/
+
 python -m venv venv
+
 venv\Scripts\activate 
 
 install flask and pandas
+
 python app.py
 
