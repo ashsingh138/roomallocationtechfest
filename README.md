@@ -15,11 +15,15 @@ open in vs code
 in folder create something like this
 
 foldername
+
 ├── app.py
+
 ├── templates/
 │   └── index.html
+
 ├── static/
 │   └── style.css
+
 ├── uploads/
 
 python -m venv venv
